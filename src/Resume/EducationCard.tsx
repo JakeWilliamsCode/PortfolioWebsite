@@ -4,11 +4,11 @@ function EducationCard(props : any) {
     return(
         <div style={{paddingTop:"1%", paddingLeft:"32.5%", paddingRight:"32.5%", paddingBottom:".5%"}}>
         <Card style={{boxShadow:'0 0 10px 5px rgba(146, 146, 146, 0.5)' }}>
-            <Card.Body>
-            <Card.Title>
+            <Card.Body style={{marginTop: "-20px"}}>
+            <Card.Title style={{fontSize:"32px"}}> 
                 Education
             </Card.Title>
-            <Card.Text style={{fontSize:"20px"}}>
+            <Card.Text style={{fontSize:"18px"}}>
                 
                 <Row>
                     <Col>

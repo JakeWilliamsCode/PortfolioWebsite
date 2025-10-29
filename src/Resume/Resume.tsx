@@ -7,7 +7,7 @@ function Resume(){
     return (
         <div>
         <div style={{paddingBottom:"5%"}}>
-        <EducationCard title = {'Bachelors with Honors in Computer Science'} title2={'Bachelors with Honors in Mathematics Honors'} timeframe="August 2021 - December 2024" company></EducationCard>
+        <EducationCard title = {'Bachelors with Honors in Computer Science'} title2={'Bachelors with Honors in Mathematics'} timeframe="August 2021 - December 2024" company></EducationCard>
         </div>
             <h2 className="Name" id="Software" style={{fontSize: 40, marginTop:"1%"}}>Software Engineer</h2>
             <ResumeCard title="Software Developer III" timeframe="February 2025 - Present" company="Paycom Software Inc." 
