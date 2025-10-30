@@ -1,4 +1,4 @@
-import { Card, Placeholder, Container, Row, Col } from "react-bootstrap"
+import { Card, Row, Col } from "react-bootstrap"
 
 function EducationCard(props : any) {
     return(

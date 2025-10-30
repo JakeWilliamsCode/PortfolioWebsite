@@ -1,4 +1,4 @@
-import { Card, Placeholder, Container, Row, Col } from "react-bootstrap"
+import { Card, Container, Row, Col } from "react-bootstrap"
 
 function ResumeCard(props: any) {
     return(

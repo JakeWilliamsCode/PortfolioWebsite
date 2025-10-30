@@ -1,7 +1,5 @@
-import React from "react";
 import { useRef } from "react";
-import { Card, Placeholder, Overlay } from "react-bootstrap";
-import { DiamondFill } from "react-bootstrap-icons";
+import { Card } from "react-bootstrap";
 
 function AboutCard() {
     const target = useRef(null);

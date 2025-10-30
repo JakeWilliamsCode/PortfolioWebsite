@@ -1,6 +1,4 @@
-import React from "react";
 import { Card, Row, Col, Container } from "react-bootstrap";
-import { DiamondFill } from "react-bootstrap-icons";
 import { useState } from "react";
 
 function Title() {

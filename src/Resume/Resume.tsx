@@ -1,7 +1,6 @@
 import ResumeCard from "./ResumeCard";
 import EducationCard from "./EducationCard";
 import PublishedWorkCard from "./PublishedWorkCard";
-import { Card } from "react-bootstrap";
 function Resume(){
 
     return (
