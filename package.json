@@ -1,5 +1,6 @@
 {
   "name": "website-portfolio-app",
+  "homepage": "https://jakewilliamscode.github.io/PortfolioWebsite/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-bootstrap": "^2.10.10",
     "react-bootstrap-icons": "^1.11.6",
