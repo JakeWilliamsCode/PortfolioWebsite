@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 function AboutCard() {
     const target = useRef(null);
     return (
-        <div ref={target} style={{paddingTop:"5%", paddingLeft:"32.5%", paddingRight:"32.5%", paddingBottom:"1%"}}>
+        <div ref={target} style={{paddingTop:"5%", paddingLeft:"5%", paddingRight:"5%", paddingBottom:"1%"}}>
         <Card style={{boxShadow:'0 0 10px 5px rgba(146, 146, 146, 0.5)'}}>
         <Card.Body>
           <Card.Title >

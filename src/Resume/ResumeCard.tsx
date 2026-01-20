@@ -2,7 +2,7 @@ import { Card, Container, Row, Col } from "react-bootstrap"
 
 function ResumeCard(props: any) {
     return(
-        <div style={{paddingTop:"1%", paddingLeft:"30%", paddingRight:"30%", paddingBottom:".5%"}}>
+        <div style={{paddingTop:"1%", paddingLeft:"5%", paddingRight:"5%", paddingBottom:".5%"}}>
         <Card style={{boxShadow:'0 0 10px 5px rgba(117, 117, 117, 0.25)' }}>
             <Card.Body>
             <Card.Title>

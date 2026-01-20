@@ -1,3 +1,7 @@
+:root{
+  background-color:rgb(2, 2, 2); 
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -41,4 +46,15 @@ code {
 
 .glowing-component.glowing {
   box-shadow: 0 0 20px 5px rgba(199, 199, 199, 0.8); /* Light blue glow */
+}
+
+.cardColumns {
+  padding: 0%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .cardColumns {
+      padding: 2.5%;
+    }
 }

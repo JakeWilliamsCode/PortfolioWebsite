@@ -12,8 +12,8 @@ function Title() {
         <h2 className ="Name" style={{fontSize: 40, marginTop:"1%"}}>
             <Container>
             <Row>
-                <Col>
-                <Card  className={`glowing-component ${isHovered ? 'glowing' : ''}`}
+                <Col className="cardColumns" >
+                <Card className={`glowing-component ${isHovered ? 'glowing' : ''}`}
                     onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}>
             <a style={{color:"rgba(249, 252, 255, .90)"}}href="#Software">
@@ -21,7 +21,7 @@ function Title() {
             </a> 
             </Card>
             </Col>
-            <Col>
+            <Col className="cardColumns" >
             <Card className={`glowing-component ${isHovered1 ? 'glowing' : ''}`}
                 onMouseEnter={() => setIsHovered1(true)}
                 onMouseLeave={() => setIsHovered1(false)}>
@@ -30,7 +30,7 @@ function Title() {
             </a>
             </Card> 
             </Col>
-            <Col>
+            <Col className="cardColumns" >
             <Card className={`glowing-component ${isHovered2 ? 'glowing' : ''}`}
                 onMouseEnter={() => setIsHovered2(true)}
                 onMouseLeave={() => setIsHovered2(false)}>
