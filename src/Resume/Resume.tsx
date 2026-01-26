@@ -10,7 +10,11 @@ function Resume(){
         </div>
             <h2 className="Name" id="Software" style={{fontSize: 40, marginTop:"1%"}}>Software Engineer</h2>
             <ResumeCard title="Software Developer III" timeframe="February 2025 - Present" company="Paycom Software Inc." 
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
+            description="Worked on a Team of 8 to grow and maintain a Company Wide UI Library utilized by over 1,000 developers.
+Assisted modules across the company with front-end issues
+• Employed React, HTML and, CSS across UI components to support consistent aesthetic and visual cohesion
+• Created Internal Tools to integrate clean code and proper peer review initiatives by connecting guidelines into Gitlab
+and JIRA through API’s with a PHP backend." />
             <ResumeCard title="Software Developer Intern" timeframe="May 2023 - August 2024" company="Paycom Software Inc." 
             description="Automated library checkout system for employees by creating a C# .NET App, utilizing a MySQL Database and creating a React front-end with both admin and user capabilities. I implemented asynchronous data population throughout a React SPA through queries to an SQL database. 
             Led a technical course over the summer spanning multiple weeks focused on clean code concepts. Led hackathon team to a 1st place victory as team captain in intern-wide hackathon. Additionally, I worked on a Full Stack application utilizing C# .NET and React that allowed a non-technical user to create XML files that would facilitate onboarding of new clientele, leading to a large increase in data transition efficiency. Translated JSON objects into an XML format that were sent from a React SPA into a C# backend."/>

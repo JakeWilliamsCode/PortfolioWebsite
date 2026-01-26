@@ -1,0 +1,24 @@
+{
+  "Descriptions": [
+    {
+      "id": 1,
+      "description": "Ergonomic wireless mouse with adjustable DPI settings."
+    },
+    {
+      "id": 2,
+      "description": "Mechanical keyboard with RGB backlighting."
+    },
+    {
+      "id": 3,
+      "description": "4K monitor with ultra-thin bezel design."
+    },
+    {
+      "id": 4,
+      "description": "Noise-canceling overhead headphones."
+    },
+    {
+      "id": 5,
+      "description": "USB-C docking station with multiple ports."
+    }
+  ]
+}
