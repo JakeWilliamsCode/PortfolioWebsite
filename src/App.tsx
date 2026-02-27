@@ -15,6 +15,7 @@ function App() {
 				<Route path="/PDFResume" element={<ResumePDF />} />
 				<Route path="/Hobbies" element={<Hobbies />} />
 				<Route path="/Contact" element={<Contact />} />
+				<Route path="*" element={<Home />} />
 			</Routes>
 		</HashRouter>
 	);
