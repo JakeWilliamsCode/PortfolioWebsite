@@ -38,7 +38,7 @@ and JIRA through API’s with a PHP backend." />
             description="•	Passed legislation that provided over $10,000+ to various student organizations"/>
             <ResumeCard title="Board of Directors Stout Hall" timeframe="August 2021 - May 2022" company="Director" 
             description="Dig up old resume to put here"/>
-
+            <div style={{padding:'24px'}}></div>
          </div>
     );
 }

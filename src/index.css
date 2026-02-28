@@ -52,9 +52,46 @@ code {
   padding: 0%;
 }
 
+.site-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.);
+  color: rgba(255, 255, 255, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 20px;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.site-footer-text {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.site-footer-links {
+  display: flex;
+  gap: 16px;
+}
+
+.site-footer-links a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+
+.site-footer-links a:hover {
+  text-decoration: underline;
+}
+
 
 @media only screen and (max-width: 1200px) {
     .cardColumns {
       padding: 2.5%;
     }
+}
+
+@media only screen and (max-width: 640px) {
+  .site-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
