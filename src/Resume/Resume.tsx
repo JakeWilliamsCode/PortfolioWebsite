@@ -40,7 +40,8 @@ function Resume(){
                 company={card.company}
                 description={card.description}
             />
-        ));
+        )
+    );
     };
 
     return (
@@ -55,7 +56,7 @@ function Resume(){
             {getResearchCards()}
             <h2 className ="Name" id="Community" style={{fontSize: 40, marginTop:"1%"}}>Community Builder</h2>
             {getCommunityCards()}
-            <div style={{margin: '32px'}}></div>
+            <div style={{padding: '32px'}}></div>
          </div>
     );
 }
