@@ -4,6 +4,7 @@ import Projects from "./Components/Projects";
 import Home from "./Components/Home";
 import Contact from "./Components/Contact";
 import ResumePDF from "./Components/ResumePDF";
+import Footer from "./Components/Footer";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
 				<Route path="/PDFResume" element={<ResumePDF />} />
 				<Route path="/Hobbies" element={<Hobbies />} />
 				<Route path="/Contact" element={<Contact />} />
+				<Route path="*" element={<Home />} />
 			</Routes>
+			<Footer />
 		</HashRouter>
 	);
 }

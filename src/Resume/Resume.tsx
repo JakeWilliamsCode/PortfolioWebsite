@@ -55,6 +55,7 @@ function Resume(){
             {getResearchCards()}
             <h2 className ="Name" id="Community" style={{fontSize: 40, marginTop:"1%"}}>Community Builder</h2>
             {getCommunityCards()}
+            <div style={{margin: '32px'}}></div>
          </div>
     );
 }
