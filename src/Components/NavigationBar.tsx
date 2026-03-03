@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 function NavigationBar() {
-  
+  const publicPathPdf = 'ResumeFa25JakeWFront-1.pdf'; 
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
@@ -15,17 +15,9 @@ function NavigationBar() {
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav className="justify-content-end">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="Projects">Projects</Nav.Link>
-            <Nav.Link href="Hobbies">Hobbies</Nav.Link>
-            <NavDropdown title="More!" id="basic-nav-dropdown">
-              <NavDropdown.Item href="https://www.linkedin.com/in/jacob-l-williams/">LinkedIn</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Github</NavDropdown.Item>
-              <NavDropdown.Item href="PDFResume">Resume</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="Contact">
-                Contact Me!
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="https://www.linkedin.com/in/jacob-l-williams/">LinkedIn</Nav.Link>
+            <Nav.Link href="https://github.com/JakeWilliamsCode">Github</Nav.Link>
+            <Nav.Link href={publicPathPdf}>Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,24 +1,124 @@
 {
   "Descriptions": [
+    
     {
-      "id": 1,
-      "description": "Ergonomic wireless mouse with adjustable DPI settings."
+      "Category": "Professional",
+      "Cards" : [
+        {
+          "id": 1,
+          "title": "Software Developer III",
+          "company": "Paycom Software Inc.",
+          "timeframe": "February 2025 - Present",
+          "description": "• Worked on a Team of 8 to grow and maintain a Company Wide UI Library utilized by over 1,000 developers. Assisted modules across the company with front-end issues\n • Employed React, HTML and, CSS across UI components to support consistent aesthetic and visual cohesion\n • Created Internal Tools to integrate clean code and proper peer review initiatives by connecting guidelines into Gitlab and JIRA through API’s with a PHP backend."
+        },
+        {
+          "id": 2,
+          "title": "Software Developer Intern",
+          "company": "Paycom Software Inc.",
+          "timeframe": "May 2023 - August 2024",
+          "description": "• Automated library checkout system for over 7,000 employees by creating a C# .NET App, utilizing a MySQLDatabase and creating a React front-end with both admin and user capabilities \n • Led hackathon team to a 1st place victory as team captain in company-wide hackathon \n • Worked on a Full Stack application utilizing C# .NET and React that allowed a non-technical user to create XML files that would facilitate onboarding of new clientele, leading to 150% increase in data transition efficiency \n • Translated JSON objects into an XML format that were sent from a React SPA into a C# backend"
+        },
+        {
+          "id": 3,
+          "title": "NSF IRES Intern",
+          "company": "Oklahoma State University and ENSAM University",
+          "timeframe": "May 2022 - August 2022",
+          "description": "• Developed a high-fidelity virtual reality medical training simulator for endotracheal intubation using Unity and C#.\n • Implemented real-time interaction mechanics, physics-based instrument handling, and anatomical simulation for procedural training.\n • Designed modular VR architecture for extensibility across medical scenarios and hardware platforms.\n • Collaborated with international researchers to translate clinical requirements into interactive software systems which finalized into a 84% educational retention rate regarding the endotracheal intubation procedure."
+        }
+        ]
+      },
+     {
+      "Category": "Research",
+      "Cards" : [
+        {
+          "id": 4,
+          "title": "Virtual Reality Simulation of Knot Deformation",
+          "company": "Mathematics Honors Thesis, Advised by Dr. Henry Segerman",
+          "timeframe": "December 2023 - December 2024",
+          "description": "• Utilized Unity to render knots in a 3D environment with a focus on efficiency and user experience. Implemented algorithms in C#. \n• Simulated Knots with the ability to deform and interact with them in Virtual Reality. Represented knots as a sequence of vectors, updating vectors each frame using an algorithm built off of the Jakobsen Method. ",
+          "links": [{
+            "linkTitle": "Publication at Oklahoma State University",
+            "linkURL": "https://openresearch.okstate.edu/entities/publication/7f3d3f4e-2f3e-4f6b-8e2b-6e2f5f5e5f5e"
+          },
+          {
+            "linkTitle": "JMM 2025 Conference Link",
+            "linkURL": "https://meetings.ams.org/math/jmm2025/meetingapp.cgi/Paper/46406"
+          }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Multimodal Aspect Based Sentiment Analysis Cross-Modal Model",
+          "company": "Computer Science Honors Thesis",
+          "timeframe": "August 2023 - May 2024",
+          "description": "Built a PyTorch model in Google Colab to predict sentiment for specific aspects in paired text and images using cross-modal feature fusion. \n More words here",
+          "links": [
+            {
+            "linkTitle": "Publication at Oklahoma State University",
+            "linkURL": "https://openresearch.okstate.edu/entities/publication/06b79ee7-7485-4a11-8f74-4c9fb3db5f0d"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Effect of Tactile Affordance During the Design of Extended Reality-Based Training Environments for Healthcare Contexts",
+          "company": "ACM",
+          "timeframe": "July 2023",
+          "description": "• Utilized Unity and C# in order to In this paper, the effect of tactile affordance during the design of Extended Reality (XR) based environments is presented. Tactile affordance is one of the Human eXtended Reality Interaction (HXRI) criteria which help lay the foundation for human-centric XR-based training environments. XR-based training environments developed for two surgical procedures have been used to study the role of tactile affordance. The first XR environment is developed for the Condylar plating surgical procedure which is performed to treat the fractures of the femur bone and the second XR environment is developed to train users in endotracheal intubation. Three studies have been conducted to understand the influence of different interaction methods to elevate tactile affordance in XR-based environments. The studies and the results of the studies have been exhaustively discussed in this paper.",
+          "links": [
+            {
+            "linkTitle": "Publication at the Association for Computing Machinery",
+            "linkURL": "https://dl.acm.org/doi/10.1007/978-3-031-35634-6_31"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Disassociation of Visual-proprioception Feedback to Enhance Endotracheal Intubation",
+          "company": "IEEE",
+          "timeframe": "February 2023",
+          "description": "Insert Abstract Here",
+          "links": [
+            {
+            "linkTitle": "Publication at the Institute for Electrical and Electronics Engineers",
+            "linkURL": "https://ieeexplore.ieee.org/document/10039795"
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": 2,
-      "description": "Mechanical keyboard with RGB backlighting."
-    },
-    {
-      "id": 3,
-      "description": "4K monitor with ultra-thin bezel design."
-    },
-    {
-      "id": 4,
-      "description": "Noise-canceling overhead headphones."
-    },
-    {
-      "id": 5,
-      "description": "USB-C docking station with multiple ports."
-    }
+      "Category": "Leadership",
+      "Cards" : [
+      {
+        "id": 8,
+        "title": "Association for Computer Machinery - OSU",
+        "company": "President",
+        "timeframe": "August 2023 - May 2024",
+        "description": "Hosted technical meetings and presentations on topics such as React and Git. Organized and volunteered at hackathons with 50+ attendees. Led OSU’s NASA Suits team."
+      },
+      {
+        "id": 9,
+        "title": "Off Campus Student Association",
+        "company": "President",
+        "timeframe": "August 2023 - May 2024",
+        "description": "Led weekly meetings on events, legislation, and student concerns. Organized 12+ events with 100+ attendees."
+      },
+      {
+        "id": 10,
+        "title": "Student Government Association",
+        "company": "Budget Chair, Senator",
+        "timeframe": "August 2022 - December 2024",
+        "description": "Passed legislation allocating over $10,000 to student organizations."
+      },
+      {
+        "id": 11,
+        "title": "Board of Directors Stout Hall",
+        "company": "Director",
+        "timeframe": "August 2021 - May 2022",
+        "description": "Dig up old resume to put here"
+      }
+    ]
+  }
   ]
 }
