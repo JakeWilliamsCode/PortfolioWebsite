@@ -17,7 +17,7 @@ function AboutCard() {
             I enjoy working together as a team and have greatly enjoyed serving Oklahoma State University
             as the president of multiple student organizations. Outside of Tech and University, I enjoy
             reading, cooking, painting, powerlifting, and gaming.
-            Currently, I am a Software Developer III working on Full Stack projects at Paycom,  If you wish to contact me, you can do reach me at Jakewill51503@gmail.com or through LinkedIn! 
+            Previously, I was a Software Developer III working on full stack applications at Paycom, currently I now maintain employment in the DFW area as a Software Engineer. If you wish to contact me, you can do reach me at Jakewill51503@gmail.com or through LinkedIn! 
           </Card.Text>
         </Card.Body>
         </Card>
