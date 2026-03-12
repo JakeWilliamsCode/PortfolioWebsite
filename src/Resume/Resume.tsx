@@ -1,6 +1,5 @@
 import ResumeCard from "./ResumeCard";
 import EducationCard from "./EducationCard";
-import PublishedWorkCard from "./PublishedWorkCard";
 import Descriptions from "../assets/Descriptions.json";
 
 function Resume(){

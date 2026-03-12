@@ -1,4 +1,3 @@
-import NavigationBar from './NavigationBar';
 
 
 function ResumePDF(){
